@@ -7,6 +7,9 @@ class ErrorMessages(str, Enum):
     INVALID_INGREDIENT = "Invalid ingredient! This,{ingredient},ingredient is not supported by this Machine"
     TRY_ANOTHER_DRINK = "Try choosing another drink!"
     MONEY_NOT_ENOUGH = "Sorry that's not enough money. Money refunded."
+    DELIVERY_SUCCESS = 'Here is your {drink_name}. Enjoy!'
+    PREPARING_DRINK = "Preparing the {drink_name} ..."
+    INVALID_VALUE_ERROR = "Invalid value, try again! (Suggestion: It should be number)"
 
 class IngNames(str, Enum):
     MILK = "milk"
@@ -101,9 +104,9 @@ class CoffeeMachine:
     def are_there_sufficient_money(self, drink_input):
         # Check if the drink exists
         current_drink = next((drink for drink in self.drinks if drink.name == drink_input),None)
-        machine_drink_price = current_drink.price
         if not current_drink:
             return print(ErrorMessages.INVALID_DRINK.value)
+        machine_drink_price = current_drink.price
         # Calculate the total value of coins inserted
         total = Price(quarters = self.inserted_coins['quarters'],
                       dimes = self.inserted_coins['dimes'],
@@ -122,7 +125,7 @@ class CoffeeMachine:
             return
         if not self.are_there_sufficient_resource(drink_input):
             return
-        print(f'Doing the {drink_input} ...')
+        print(ErrorMessages.PREPARING_DRINK.value.format(drink_name=drink_input))
         print('.......')
         current_drink = [drink for drink in self.drinks if drink.name == drink_input]
         if not current_drink:
@@ -132,7 +135,7 @@ class CoffeeMachine:
                 if resource.name == ingredient_name:
                     resource.quantity -= current_drink[0].ingredients.get(ingredient_name)
         self.orders.append(drink_input)
-        print('Your drink is done!')
+        print(ErrorMessages.DELIVERY_SUCCESS.value.format(drink_name=drink_input))
 
     def get_total_value(self):
         total_value = 0.0
@@ -158,12 +161,12 @@ while coffee_machine.status:
             print("Could you insert the coins?"
                   "quarters = $0.25, dimes = $0.10, nickles = $0.05, pennies = $0.01")
             coins_list = ['quarters', 'dimes', 'nickles', 'pennies']
-            for coin in coins_list:
-                try:
+            try:
+                for coin in coins_list:
                     coffee_machine.inserted_coins[coin] = int(input(f'Insert a quantity of {coin} in unit":'))
-                except ValueError:
-                    print('Invalid value, try again!')
-                    break
+            except ValueError:
+                print(ErrorMessages.INVALID_VALUE_ERROR.value)
+                break
             coffee_machine.create_the_drink(choose_item)
             break
 
