@@ -38,14 +38,10 @@ class Price:
         self.dimes = dimes
         self.nickles = nickles
         self.pennies = pennies
-        self.total = self.get_total_after_sum()
-
-    def get_total_after_sum(self):
-        self.sum_all()
-        return self.total
+        self.total = self.sum_all()
 
     def sum_all(self):
-        self.total = 0.25 * self.quarters + 0.1 * self.dimes + 0.05 * self.nickles + 0.01 * self.pennies
+        return 0.25 * self.quarters + 0.1 * self.dimes + 0.05 * self.nickles + 0.01 * self.pennies
 
 class CoffeeMachine:
     def __init__(self):
@@ -86,16 +82,16 @@ class CoffeeMachine:
     def are_there_sufficient_resource(self, drink_input):
         ingredient_not_enough = []
         status = True
-        current_drink = [drink for drink in self.drinks if drink.name == drink_input]
+        current_drink = next((drink for drink in self.drinks if drink.name == drink_input), None)
         if not current_drink:
             return print(ErrorMessages.INVALID_DRINK.value)
-        ingredients = current_drink[0].ingredients
-        for ingredient in ingredients:
-            resource = [res for res in self.machine_resources if res.name == ingredient.value]
+        for ingredient, required_qty in current_drink.ingredients.items():
+            resource = next((res for res in self.machine_resources if res.name == ingredient.value), None)
             if not resource:
-                return print(ErrorMessages.INVALID_INGREDIENT.value.format(ingredient))
+                print(ErrorMessages.INVALID_INGREDIENT.value.format(ingredient))
+                return False
 
-            if not ingredients.get(ingredient) <= resource[0].quantity:
+            if required_qty > resource.quantity:
                 ingredient_not_enough.append(ingredient.name)
         if ingredient_not_enough:
             print(f'{ErrorMessages.INGREDIENT_NOT_ENOUGH.value.format(ingredient=ingredient_not_enough)}\n')
@@ -103,21 +99,23 @@ class CoffeeMachine:
         return status
 
     def are_there_sufficient_money(self, drink_input):
-        status = True
-        current_drink = [drink for drink in self.drinks if drink.name == drink_input]
-        machine_drink_price = current_drink[0].price
+        # Check if the drink exists
+        current_drink = next((drink for drink in self.drinks if drink.name == drink_input),None)
+        machine_drink_price = current_drink.price
         if not current_drink:
             return print(ErrorMessages.INVALID_DRINK.value)
+        # Calculate the total value of coins inserted
         total = Price(quarters = self.inserted_coins['quarters'],
                       dimes = self.inserted_coins['dimes'],
                       nickles = self.inserted_coins['nickles'],
                       pennies = self.inserted_coins['pennies']).total
+       # Check if are there enough money
         if total < machine_drink_price:
             print(ErrorMessages.MONEY_NOT_ENOUGH.value)
             return False
         refund_value = total - machine_drink_price
         print(f'Here is ${refund_value} dollars in change.')
-        return status
+        return True
 
     def create_the_drink(self, drink_input):
         if not self.are_there_sufficient_money(drink_input):
@@ -160,12 +158,12 @@ while coffee_machine.status:
             print("Could you insert the coins?"
                   "quarters = $0.25, dimes = $0.10, nickles = $0.05, pennies = $0.01")
             coins_list = ['quarters', 'dimes', 'nickles', 'pennies']
-            try:
-                for coin in coins_list:
+            for coin in coins_list:
+                try:
                     coffee_machine.inserted_coins[coin] = int(input(f'Insert a quantity of {coin} in unit":'))
-            except ValueError:
-                print('Invalid value, try again!')
-                break
+                except ValueError:
+                    print('Invalid value, try again!')
+                    break
             coffee_machine.create_the_drink(choose_item)
             break
 
