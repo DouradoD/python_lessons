@@ -1,0 +1,702 @@
+[
+    {
+        "text": "O que é severidade de defeitos e como ela difere da priorização?",
+        "answer": "1",
+        "options": {
+            "1": "A severidade de defeitos classifica o impacto do defeito no sistema, independentemente da urgência de correção. Já a priorização considera a urgência e a importância de corrigir o defeito, levando em conta fatores como prazos e impacto no negócio.",
+            "2": "A severidade de defeitos é o processo de classificar os defeitos com base na urgência e importância de sua correção. Ela ajuda a equipe a decidir quais defeitos devem ser resolvidos primeiro, considerando fatores como impacto no usuário, riscos para o sistema e prazos do projeto.",
+            "3": "A severidade e a priorização são a mesma coisa, apenas termos diferentes para o mesmo conceito.",
+            "4": "A severidade de defeitos é usada apenas em testes manuais, enquanto a priorização é usada em testes automatizados."
+        }
+    },
+    {
+        "text": "Quais são os níveis de severidade de defeitos e como eles são definidos?",
+        "answer": "2",
+        "options": {
+            "1": "Alta, Média e Baixa, definidos com base no tempo necessário para corrigir o defeito.",
+            "2": "Crítico, Alto, Médio e Baixo, definidos com base no impacto do defeito no sistema.",
+            "3": "Urgente, Importante e Menor, definidos com base no impacto no negócio.",
+            "4": "Bloqueador, Funcional e Cosmético, definidos com base no tipo de teste afetado."
+        }
+    },
+    {
+        "text": "O que é um caso de teste e quais elementos ele deve conter?",
+        "answer": "3",
+        "options": {
+            "1": "Um caso de teste é um documento que descreve a estratégia de teste. Deve conter objetivo, escopo e cronograma.",
+            "2": "Um caso de teste é uma ferramenta usada para automação. Deve conter scripts, dados de teste e resultados esperados.",
+            "3": "Um caso de teste é um conjunto de condições ou ações executadas para verificar uma funcionalidade. Deve conter ID, título, descrição, pré-condições, passos, resultado esperado e status.",
+            "4": "Um caso de teste é um relatório de defeitos. Deve conter descrição do defeito, passos para reproduzir e evidências."
+        }
+    },
+    {
+        "text": "Como você garante que um caso de teste seja claro e replicável?",
+        "answer": "1",
+        "options": {
+            "1": "Usando linguagem simples, descrevendo passos detalhados e incluindo dados de teste específicos.",
+            "2": "Automatizando todos os casos de teste para evitar erros humanos.",
+            "3": "Criando casos de teste genéricos que podem ser aplicados a qualquer funcionalidade.",
+            "4": "Documentando apenas os resultados esperados, sem detalhar os passos."
+        }
+    },
+    {
+        "text": "O que é um plano de testes e quais são seus principais componentes?",
+        "answer": "4",
+        "options": {
+            "1": "Um plano de testes é um script de automação. Seus componentes incluem código, dados de teste e resultados.",
+            "2": "Um plano de testes é um relatório de defeitos. Seus componentes incluem descrição do defeito, passos para reproduzir e evidências.",
+            "3": "Um plano de testes é uma lista de casos de teste. Seus componentes incluem ID, título e descrição dos casos.",
+            "4": "Um plano de testes é um documento que descreve a estratégia de teste. Seus componentes incluem objetivo, escopo, recursos, cronograma e critérios de entrada/saída."
+        }
+    },
+    {
+        "text": "Por que o plano de testes deve incluir critérios de entrada e saída?",
+        "answer": "2",
+        "options": {
+            "1": "Para garantir que os testes sejam executados apenas por usuários autorizados.",
+            "2": "Para garantir que os testes sejam realizados nas condições corretas e que os resultados sejam confiáveis.",
+            "3": "Para definir o prazo máximo para a execução dos testes.",
+            "4": "Para limitar o número de casos de teste que podem ser executados."
+        }
+    },
+    {
+        "text": "O que é uma matriz de rastreabilidade e qual é sua importância?",
+        "answer": "3",
+        "options": {
+            "1": "Uma matriz de rastreabilidade é um relatório de defeitos. Sua importância é documentar todos os defeitos encontrados.",
+            "2": "Uma matriz de rastreabilidade é um script de automação. Sua importância é garantir que os testes sejam executados corretamente.",
+            "3": "Uma matriz de rastreabilidade é uma tabela que mapeia requisitos para casos de teste. Sua importância é garantir que todos os requisitos sejam cobertos pelos testes.",
+            "4": "Uma matriz de rastreabilidade é um plano de testes. Sua importância é definir a estratégia de teste."
+        }
+    },
+    {
+        "text": "Como você identifica riscos em um plano de testes?",
+        "answer": "1",
+        "options": {
+            "1": "Analisando requisitos complexos, dependências externas, disponibilidade de recursos e prazos.",
+            "2": "Executando todos os casos de teste e verificando se há falhas.",
+            "3": "Documentando apenas os defeitos críticos encontrados durante os testes.",
+            "4": "Automatizando os testes para reduzir a probabilidade de riscos."
+        }
+    },
+    {
+        "text": "Quais fatores você considera ao priorizar um defeito?",
+        "answer": "4",
+        "options": {
+            "1": "Apenas o impacto no usuário.",
+            "2": "Apenas a complexidade de correção.",
+            "3": "Apenas a frequência de ocorrência.",
+            "4": "Impacto no usuário, impacto no negócio, frequência de ocorrência, blocagem de testes e prazos do projeto."
+        }
+    },
+    {
+        "text": "Dê um exemplo de um defeito crítico e um defeito de baixa severidade.",
+        "answer": "2",
+        "options": {
+            "1": "Crítico: Ícone desalinhado. Baixa severidade: Sistema não permite login.",
+            "2": "Crítico: Sistema não permite login. Baixa severidade: Ícone desalinhado.",
+            "3": "Crítico: Mensagem de erro incorreta. Baixa severidade: Sistema trava ao finalizar compra.",
+            "4": "Crítico: Texto desalinhado no rodapé. Baixa severidade: Sistema não inicia."
+        }
+    },
+    {
+        "text": "O que é o Ciclo de Vida do Desenvolvimento de Software (SDLC)?",
+        "answer": "1",
+        "options": {
+            "1": "Um processo que inclui fases como requisitos, design, implementação, testes, implantação e manutenção.",
+            "2": "Um framework ágil usado para gerenciar projetos de software.",
+            "3": "Uma ferramenta de automação de testes.",
+            "4": "Um documento que descreve apenas a fase de testes."
+        }
+    },
+    {
+        "text": "Qual é a diferença entre SDLC e STLC?",
+        "answer": "2",
+        "options": {
+            "1": "SDLC é focado em testes, enquanto STLC é focado em desenvolvimento.",
+            "2": "SDLC abrange todo o ciclo de desenvolvimento de software, enquanto STLC foca especificamente no ciclo de testes.",
+            "3": "SDLC é usado em metodologias ágeis, enquanto STLC é usado em metodologias cascata.",
+            "4": "Não há diferença; são termos intercambiáveis."
+        }
+    },
+    {
+        "text": "O que é um teste de regressão?",
+        "answer": "3",
+        "options": {
+            "1": "Um teste que verifica novas funcionalidades.",
+            "2": "Um teste que valida a usabilidade do sistema.",
+            "3": "Um teste que garante que alterações no código não afetem funcionalidades existentes.",
+            "4": "Um teste que verifica o desempenho do sistema."
+        }
+    },
+    {
+        "text": "O que é um teste de smoke?",
+        "answer": "4",
+        "options": {
+            "1": "Um teste que verifica a segurança do sistema.",
+            "2": "Um teste que valida a integração entre módulos.",
+            "3": "Um teste que verifica a usabilidade do sistema.",
+            "4": "Um teste rápido que verifica se as funcionalidades principais estão funcionando."
+        }
+    },
+    {
+        "text": "O que é particionamento de equivalência?",
+        "answer": "1",
+        "options": {
+            "1": "Uma técnica que divide os dados em grupos que devem se comportar de forma semelhante.",
+            "2": "Uma técnica que testa os limites de entradas e saídas.",
+            "3": "Uma técnica que usa tabelas para definir cenários de teste.",
+            "4": "Uma técnica que explora o sistema sem scripts pré-definidos."
+        }
+    },
+    {
+        "text": "O que é análise de valor limite?",
+        "answer": "2",
+        "options": {
+            "1": "Uma técnica que divide os dados em grupos que devem se comportar de forma semelhante.",
+            "2": "Uma técnica que foca nos limites de entradas e saídas.",
+            "3": "Uma técnica que usa tabelas para definir cenários de teste.",
+            "4": "Uma técnica que explora o sistema sem scripts pré-definidos."
+        }
+    },
+    {
+        "text": "O que é um teste exploratório?",
+        "answer": "4",
+        "options": {
+            "1": "Um teste que segue um script detalhado.",
+            "2": "Um teste que valida apenas a usabilidade do sistema.",
+            "3": "Um teste que verifica o desempenho do sistema.",
+            "4": "Um teste não estruturado que explora o sistema em busca de defeitos inesperados."
+        }
+    },
+    {
+        "text": "O que é um critério de entrada em um plano de testes?",
+        "answer": "3",
+        "options": {
+            "1": "Condições que indicam quando os testes podem ser finalizados.",
+            "2": "Critérios que definem a prioridade dos casos de teste.",
+            "3": "Condições que devem ser atendidas antes de iniciar os testes.",
+            "4": "Critérios que definem a severidade dos defeitos."
+        }
+    },
+    {
+        "text": "O que é um critério de saída em um plano de testes?",
+        "answer": "1",
+        "options": {
+            "1": "Condições que indicam quando os testes podem ser finalizados.",
+            "2": "Critérios que definem a prioridade dos casos de teste.",
+            "3": "Condições que devem ser atendidas antes de iniciar os testes.",
+            "4": "Critérios que definem a severidade dos defeitos."
+        }
+    },
+    {
+        "text": "O que é um caso de teste negativo?",
+        "answer": "2",
+        "options": {
+            "1": "Um caso de teste que valida o comportamento esperado do sistema.",
+            "2": "Um caso de teste que valida como o sistema lida com entradas ou condições inválidas.",
+            "3": "Um caso de teste que verifica a usabilidade do sistema.",
+            "4": "Um caso de teste que verifica o desempenho do sistema."
+        }
+    },
+    {
+        "text": "O que é um caso de teste positivo?",
+        "answer": "1",
+        "options": {
+            "1": "Um caso de teste que valida o comportamento esperado do sistema.",
+            "2": "Um caso de teste que valida como o sistema lida com entradas ou condições inválidas.",
+            "3": "Um caso de teste que verifica a usabilidade do sistema.",
+            "4": "Um caso de teste que verifica o desempenho do sistema."
+        }
+    },
+    {
+        "text": "O que é um teste de integração?",
+        "answer": "3",
+        "options": {
+            "1": "Um teste que verifica uma única unidade de código.",
+            "2": "Um teste que verifica a usabilidade do sistema.",
+            "3": "Um teste que verifica a interação entre diferentes módulos ou sistemas.",
+            "4": "Um teste que verifica o desempenho do sistema."
+        }
+    },
+    {
+        "text": "O que é um teste de sistema?",
+        "answer": "4",
+        "options": {
+            "1": "Um teste que verifica uma única unidade de código.",
+            "2": "Um teste que verifica a usabilidade do sistema.",
+            "3": "Um teste que verifica a interação entre diferentes módulos ou sistemas.",
+            "4": "Um teste que verifica o sistema como um todo, garantindo que todas as funcionalidades estejam funcionando corretamente."
+        }
+    },
+    {
+        "text": "O que é um teste de aceitação do usuário (UAT)?",
+        "answer": "2",
+        "options": {
+            "1": "Um teste que verifica o desempenho do sistema.",
+            "2": "Um teste que valida se o sistema atende às necessidades do usuário final.",
+            "3": "Um teste que verifica a integração entre módulos.",
+            "4": "Um teste que verifica a segurança do sistema."
+        }
+    },
+    {
+        "text": "O que é um teste de desempenho?",
+        "answer": "1",
+        "options": {
+            "1": "Um teste que verifica a velocidade, estabilidade e escalabilidade do sistema.",
+            "2": "Um teste que valida a usabilidade do sistema.",
+            "3": "Um teste que verifica a integração entre módulos.",
+            "4": "Um teste que verifica a segurança do sistema."
+        }
+    },
+    {
+        "text": "O que é um teste de segurança?",
+        "answer": "4",
+        "options": {
+            "1": "Um teste que verifica a usabilidade do sistema.",
+            "2": "Um teste que verifica a integração entre módulos.",
+            "3": "Um teste que verifica o desempenho do sistema.",
+            "4": "Um teste que verifica vulnerabilidades e protege o sistema contra ataques."
+        }
+    },
+    {
+        "text": "O que é um teste de usabilidade?",
+        "answer": "3",
+        "options": {
+            "1": "Um teste que verifica a integração entre módulos.",
+            "2": "Um teste que verifica o desempenho do sistema.",
+            "3": "Um teste que valida quão fácil e intuitivo é usar o sistema.",
+            "4": "Um teste que verifica a segurança do sistema."
+        }
+    },
+    {
+        "text": "O que é um teste de carga?",
+        "answer": "2",
+        "options": {
+            "1": "Um teste que verifica a usabilidade do sistema.",
+            "2": "Um teste que verifica como o sistema se comporta sob carga pesada.",
+            "3": "Um teste que verifica a integração entre módulos.",
+            "4": "Um teste que verifica a segurança do sistema."
+        }
+    },
+    {
+        "text": "O que é um teste de estresse?",
+        "answer": "1",
+        "options": {
+            "1": "Um teste que verifica como o sistema se comporta sob condições extremas.",
+            "2": "Um teste que verifica a usabilidade do sistema.",
+            "3": "Um teste que verifica a integração entre módulos.",
+            "4": "Um teste que verifica a segurança do sistema."
+        }
+    },
+    {
+        "text": "O que é um teste de compatibilidade?",
+        "answer": "4",
+        "options": {
+            "1": "Um teste que verifica a usabilidade do sistema.",
+            "2": "Um teste que verifica o desempenho do sistema.",
+            "3": "Um teste que verifica a segurança do sistema.",
+            "4": "Um teste que verifica se o sistema funciona corretamente em diferentes ambientes, dispositivos ou navegadores."
+        }
+    },
+    {
+        "text": "O que é uma API e qual é sua importância em testes?",
+        "answer": "1",
+        "options": {
+            "1": "Uma API é uma interface que permite a comunicação entre sistemas. Em testes, é usada para validar a integração e o comportamento do backend.",
+            "2": "Uma API é uma ferramenta de automação de testes.",
+            "3": "Uma API é um tipo de banco de dados usado para armazenar resultados de testes.",
+            "4": "Uma API é um framework de desenvolvimento de software."
+        }
+    },
+    {
+        "text": "Quais são os métodos HTTP mais comuns usados em testes de API?",
+        "answer": "2",
+        "options": {
+            "1": "CREATE, READ, UPDATE, DELETE.",
+            "2": "GET, POST, PUT, DELETE.",
+            "3": "INSERT, SELECT, UPDATE, DELETE.",
+            "4": "SEND, RECEIVE, MODIFY, REMOVE."
+        }
+    },
+    {
+        "text": "O que é um endpoint em testes de API?",
+        "answer": "3",
+        "options": {
+            "1": "Um ponto de entrada para automação de testes.",
+            "2": "Um tipo de banco de dados usado em testes.",
+            "3": "Uma URL que recebe requisições e retorna respostas em uma API.",
+            "4": "Uma ferramenta para monitorar o desempenho de APIs."
+        }
+    },
+    {
+        "text": "Qual ferramenta é comumente usada para testes manuais de API?",
+        "answer": "4",
+        "options": {
+            "1": "Selenium.",
+            "2": "Appium.",
+            "3": "JMeter.",
+            "4": "Postman."
+        }
+    },
+    {
+        "text": "O que é um payload em testes de API?",
+        "answer": "1",
+        "options": {
+            "1": "Os dados enviados em uma requisição HTTP, como JSON ou XML.",
+            "2": "O resultado retornado por uma API após uma requisição.",
+            "3": "Um tipo de autenticação usada em APIs.",
+            "4": "Uma ferramenta para testes de carga."
+        }
+    },
+    {
+        "text": "O que é um status code em testes de API?",
+        "answer": "2",
+        "options": {
+            "1": "Um código que identifica o tipo de requisição HTTP.",
+            "2": "Um código que indica o resultado de uma requisição HTTP (ex.: 200 para sucesso, 404 para não encontrado).",
+            "3": "Um código usado para autenticação em APIs.",
+            "4": "Um código que define o método HTTP usado."
+        }
+    },
+    {
+        "text": "O que é autenticação em APIs e quais métodos são comuns?",
+        "answer": "3",
+        "options": {
+            "1": "Autenticação é o processo de enviar dados para uma API. Métodos comuns incluem GET e POST.",
+            "2": "Autenticação é o processo de validar o desempenho de uma API. Métodos comuns incluem OAuth e JWT.",
+            "3": "Autenticação é o processo de verificar a identidade do usuário. Métodos comuns incluem OAuth, JWT e API Keys.",
+            "4": "Autenticação é o processo de criptografar dados. Métodos comuns incluem SSL e TLS."
+        }
+    },
+    {
+        "text": "O que é um teste de banco de dados e por que ele é importante?",
+        "answer": "4",
+        "options": {
+            "1": "Um teste que verifica a usabilidade do banco de dados.",
+            "2": "Um teste que valida a interface gráfica do banco de dados.",
+            "3": "Um teste que verifica o desempenho do banco de dados.",
+            "4": "Um teste que valida a integridade e a consistência dos dados no banco de dados."
+        }
+    },
+    {
+        "text": "Qual linguagem é comumente usada para consultas em bancos de dados relacionais?",
+        "answer": "1",
+        "options": {
+            "1": "SQL.",
+            "2": "Python.",
+            "3": "JSON.",
+            "4": "XML."
+        }
+    },
+    {
+        "text": "O que é um teste de migração de dados?",
+        "answer": "2",
+        "options": {
+            "1": "Um teste que verifica a usabilidade do banco de dados.",
+            "2": "Um teste que valida a transferência de dados entre sistemas ou versões de banco de dados.",
+            "3": "Um teste que verifica o desempenho do banco de dados.",
+            "4": "Um teste que valida a segurança do banco de dados."
+        }
+    },
+    {
+        "text": "O que é um teste de segurança e quais vulnerabilidades comuns ele cobre?",
+        "answer": "3",
+        "options": {
+            "1": "Um teste que verifica a usabilidade do sistema. Cobre problemas como lentidão e falhas de interface.",
+            "2": "Um teste que valida o desempenho do sistema. Cobre problemas como carga pesada e tempo de resposta.",
+            "3": "Um teste que verifica vulnerabilidades no sistema. Cobre problemas como SQL Injection, XSS e quebra de autenticação.",
+            "4": "Um teste que valida a integração entre módulos. Cobre problemas como falhas de comunicação."
+        }
+    },
+    {
+        "text": "O que é OWASP Top 10?",
+        "answer": "4",
+        "options": {
+            "1": "Uma lista das 10 ferramentas mais usadas para automação de testes.",
+            "2": "Uma lista dos 10 bancos de dados mais populares.",
+            "3": "Uma lista dos 10 frameworks de desenvolvimento mais usados.",
+            "4": "Uma lista das 10 vulnerabilidades de segurança mais críticas em aplicações web."
+        }
+    },
+    {
+        "text": "Qual ferramenta é comumente usada para testes de segurança?",
+        "answer": "1",
+        "options": {
+            "1": "OWASP ZAP.",
+            "2": "Postman.",
+            "3": "Selenium.",
+            "4": "JMeter."
+        }
+    },
+    {
+        "text": "O que é um teste de desempenho e quais tipos existem?",
+        "answer": "2",
+        "options": {
+            "1": "Um teste que verifica a usabilidade do sistema. Tipos incluem teste de carga e teste de estresse.",
+            "2": "Um teste que verifica a velocidade, estabilidade e escalabilidade do sistema. Tipos incluem teste de carga, teste de estresse e teste de endurance.",
+            "3": "Um teste que valida a segurança do sistema. Tipos incluem teste de penetração e teste de vulnerabilidades.",
+            "4": "Um teste que verifica a integração entre módulos. Tipos incluem teste de sistema e teste de integração."
+        }
+    },
+    {
+        "text": "O que é JMeter e para que é usado?",
+        "answer": "3",
+        "options": {
+            "1": "Uma ferramenta de automação de testes funcionais.",
+            "2": "Uma ferramenta de testes de segurança.",
+            "3": "Uma ferramenta de testes de desempenho e carga.",
+            "4": "Uma ferramenta de gerenciamento de banco de dados."
+        }
+    },
+    {
+        "text": "O que é um teste de carga?",
+        "answer": "4",
+        "options": {
+            "1": "Um teste que verifica a usabilidade do sistema sob carga pesada.",
+            "2": "Um teste que valida a segurança do sistema sob carga pesada.",
+            "3": "Um teste que verifica a integração entre módulos sob carga pesada.",
+            "4": "Um teste que verifica como o sistema se comporta sob um volume específico de usuários ou transações."
+        }
+    },
+    {
+        "text": "O que é um teste de estresse?",
+        "answer": "1",
+        "options": {
+            "1": "Um teste que verifica como o sistema se comporta sob condições extremas, além de sua capacidade normal.",
+            "2": "Um teste que valida a usabilidade do sistema sob condições extremas.",
+            "3": "Um teste que verifica a segurança do sistema sob condições extremas.",
+            "4": "Um teste que verifica a integração entre módulos sob condições extremas."
+        }
+    },
+    {
+        "text": "O que é automação de testes e quais são suas vantagens?",
+        "answer": "2",
+        "options": {
+            "1": "Automação de testes é o processo de criar documentação de testes. Suas vantagens incluem melhor organização e clareza.",
+            "2": "Automação de testes é o uso de scripts e ferramentas para executar testes. Suas vantagens incluem economia de tempo, maior cobertura e repetibilidade.",
+            "3": "Automação de testes é o processo de realizar testes manuais. Suas vantagens incluem maior flexibilidade e adaptabilidade.",
+            "4": "Automação de testes é o uso de bancos de dados para armazenar resultados de testes. Suas vantagens incluem maior segurança e consistência."
+        }
+    },
+    {
+        "text": "Qual ferramenta é comumente usada para automação de testes web?",
+        "answer": "3",
+        "options": {
+            "1": "Postman.",
+            "2": "JMeter.",
+            "3": "Selenium.",
+            "4": "OWASP ZAP."
+        }
+    },
+    {
+        "text": "Qual ferramenta é comumente usada para automação de testes mobile?",
+        "answer": "4",
+        "options": {
+            "1": "Postman.",
+            "2": "JMeter.",
+            "3": "Selenium.",
+            "4": "Appium."
+        }
+    },
+    {
+        "text": "O que é um teste de contrato em APIs e por que ele é importante?",
+        "answer": "1",
+        "options": {
+            "1": "Um teste que valida se a API segue o contrato definido (ex.: esquema JSON). É importante para garantir consistência entre frontend e backend.",
+            "2": "Um teste que verifica o desempenho da API sob carga pesada.",
+            "3": "Um teste que valida a segurança da API contra vulnerabilidades.",
+            "4": "Um teste que verifica a usabilidade da API."
+        }
+    },
+    {
+        "text": "O que é um mock em testes de API e quando ele é usado?",
+        "answer": "2",
+        "options": {
+            "1": "Um mock é uma ferramenta de automação de testes. É usado para executar testes de carga.",
+            "2": "Um mock é uma simulação de uma API. É usado quando a API real não está disponível ou para isolar testes.",
+            "3": "Um mock é um tipo de banco de dados usado em testes de API.",
+            "4": "Um mock é um relatório de defeitos gerado por ferramentas de teste."
+        }
+    },
+    {
+        "text": "O que é um teste de fumaça (smoke test) em APIs?",
+        "answer": "3",
+        "options": {
+            "1": "Um teste que verifica a segurança da API.",
+            "2": "Um teste que valida o desempenho da API sob carga pesada.",
+            "3": "Um teste rápido que verifica se as funcionalidades básicas da API estão funcionando.",
+            "4": "Um teste que valida a usabilidade da API."
+        }
+    },
+    {
+        "text": "O que é um teste de sanidade (sanity test) em APIs?",
+        "answer": "4",
+        "options": {
+            "1": "Um teste que verifica a segurança da API.",
+            "2": "Um teste que valida o desempenho da API sob carga pesada.",
+            "3": "Um teste que verifica a usabilidade da API.",
+            "4": "Um teste focado em validar funcionalidades específicas após mudanças no código."
+        }
+    },
+    {
+        "text": "O que é um teste de integração de API e qual é sua importância?",
+        "answer": "1",
+        "options": {
+            "1": "Um teste que valida a comunicação entre diferentes APIs ou módulos. É importante para garantir que o sistema funcione como um todo.",
+            "2": "Um teste que verifica o desempenho de uma única API.",
+            "3": "Um teste que valida a segurança de uma API.",
+            "4": "Um teste que verifica a usabilidade de uma API."
+        }
+    },
+    {
+        "text": "O que é um teste de carga em APIs e como ele é realizado?",
+        "answer": "2",
+        "options": {
+            "1": "Um teste que verifica a segurança da API sob carga pesada.",
+            "2": "Um teste que verifica como a API se comporta sob um volume específico de requisições. É realizado com ferramentas como JMeter ou LoadRunner.",
+            "3": "Um teste que valida a usabilidade da API sob carga pesada.",
+            "4": "Um teste que verifica a integração entre APIs sob carga pesada."
+        }
+    },
+    {
+        "text": "O que é um teste de estresse em APIs e qual é seu objetivo?",
+        "answer": "3",
+        "options": {
+            "1": "Um teste que verifica a segurança da API sob condições extremas.",
+            "2": "Um teste que valida a usabilidade da API sob condições extremas.",
+            "3": "Um teste que verifica como a API se comporta sob condições além de sua capacidade normal. O objetivo é identificar pontos de falha.",
+            "4": "Um teste que verifica a integração entre APIs sob condições extremas."
+        }
+    },
+    {
+        "text": "O que é um teste de segurança em APIs e quais vulnerabilidades ele cobre?",
+        "answer": "4",
+        "options": {
+            "1": "Um teste que verifica o desempenho da API sob carga pesada.",
+            "2": "Um teste que valida a usabilidade da API.",
+            "3": "Um teste que verifica a integração entre APIs.",
+            "4": "Um teste que verifica vulnerabilidades como SQL Injection, XSS e quebra de autenticação."
+        }
+    },
+    {
+        "text": "O que é um teste de banco de dados e quais tipos existem?",
+        "answer": "1",
+        "options": {
+            "1": "Testes que validam a integridade, consistência e desempenho dos dados. Tipos incluem testes de integridade, migração e desempenho.",
+            "2": "Testes que verificam a usabilidade do banco de dados.",
+            "3": "Testes que validam a segurança do banco de dados.",
+            "4": "Testes que verificam a integração entre bancos de dados."
+        }
+    },
+    {
+        "text": "O que é um teste de integridade de banco de dados?",
+        "answer": "2",
+        "options": {
+            "1": "Um teste que verifica a usabilidade do banco de dados.",
+            "2": "Um teste que valida se os dados estão consistentes e seguem as regras de negócio.",
+            "3": "Um teste que verifica o desempenho do banco de dados.",
+            "4": "Um teste que valida a segurança do banco de dados."
+        }
+    },
+    {
+        "text": "O que é um teste de desempenho de banco de dados?",
+        "answer": "3",
+        "options": {
+            "1": "Um teste que verifica a usabilidade do banco de dados.",
+            "2": "Um teste que valida a segurança do banco de dados.",
+            "3": "Um teste que verifica a velocidade e eficiência das consultas e transações no banco de dados.",
+            "4": "Um teste que valida a integração entre bancos de dados."
+        }
+    },
+    {
+        "text": "O que é um teste de segurança de banco de dados?",
+        "answer": "4",
+        "options": {
+            "1": "Um teste que verifica a usabilidade do banco de dados.",
+            "2": "Um teste que valida o desempenho do banco de dados.",
+            "3": "Um teste que verifica a integração entre bancos de dados.",
+            "4": "Um teste que valida se o banco de dados está protegido contra acessos não autorizados e vulnerabilidades."
+        }
+    },
+    {
+        "text": "O que é um teste de penetração e qual é seu objetivo?",
+        "answer": "1",
+        "options": {
+            "1": "Um teste que simula ataques para identificar vulnerabilidades no sistema. O objetivo é fortalecer a segurança.",
+            "2": "Um teste que verifica o desempenho do sistema sob carga pesada.",
+            "3": "Um teste que valida a usabilidade do sistema.",
+            "4": "Um teste que verifica a integração entre módulos."
+        }
+    },
+    {
+        "text": "O que é um teste de vulnerabilidade e como ele é realizado?",
+        "answer": "2",
+        "options": {
+            "1": "Um teste que verifica o desempenho do sistema sob carga pesada.",
+            "2": "Um teste que identifica falhas de segurança no sistema. É realizado com ferramentas como OWASP ZAP ou Nessus.",
+            "3": "Um teste que valida a usabilidade do sistema.",
+            "4": "Um teste que verifica a integração entre módulos."
+        }
+    },
+    {
+        "text": "O que é um teste de endurance e qual é seu objetivo?",
+        "answer": "3",
+        "options": {
+            "1": "Um teste que verifica a segurança do sistema sob condições extremas.",
+            "2": "Um teste que valida a usabilidade do sistema sob carga pesada.",
+            "3": "Um teste que verifica como o sistema se comporta sob carga por um período prolongado. O objetivo é identificar problemas de longo prazo.",
+            "4": "Um teste que verifica a integração entre módulos sob carga pesada."
+        }
+    },
+    {
+        "text": "O que é um teste de escalabilidade e qual é seu objetivo?",
+        "answer": "4",
+        "options": {
+            "1": "Um teste que verifica a segurança do sistema sob condições extremas.",
+            "2": "Um teste que valida a usabilidade do sistema sob carga pesada.",
+            "3": "Um teste que verifica a integração entre módulos sob carga pesada.",
+            "4": "Um teste que verifica como o sistema lida com o aumento de carga. O objetivo é garantir que o sistema possa crescer conforme necessário."
+        }
+    },
+    {
+        "text": "O que é um teste de recuperação e qual é seu objetivo?",
+        "answer": "1",
+        "options": {
+            "1": "Um teste que verifica como o sistema se recupera após falhas. O objetivo é garantir a resiliência do sistema.",
+            "2": "Um teste que valida a usabilidade do sistema após falhas.",
+            "3": "Um teste que verifica a segurança do sistema após falhas.",
+            "4": "Um teste que verifica a integração entre módulos após falhas."
+        }
+    },
+    {
+        "text": "O que é um teste de configuração e qual é seu objetivo?",
+        "answer": "2",
+        "options": {
+            "1": "Um teste que verifica a segurança do sistema em diferentes configurações.",
+            "2": "Um teste que valida se o sistema funciona corretamente em diferentes configurações de hardware ou software.",
+            "3": "Um teste que verifica a usabilidade do sistema em diferentes configurações.",
+            "4": "Um teste que verifica a integração entre módulos em diferentes configurações."
+        }
+    },
+    {
+        "text": "O que é um teste de compatibilidade e qual é seu objetivo?",
+        "answer": "3",
+        "options": {
+            "1": "Um teste que verifica a segurança do sistema em diferentes ambientes.",
+            "2": "Um teste que valida o desempenho do sistema em diferentes ambientes.",
+            "3": "Um teste que verifica se o sistema funciona corretamente em diferentes navegadores, dispositivos ou sistemas operacionais.",
+            "4": "Um teste que verifica a integração entre módulos em diferentes ambientes."
+        }
+    },
+    {
+        "text": "O que é um teste de acessibilidade e qual é seu objetivo?",
+        "answer": "4",
+        "options": {
+            "1": "Um teste que verifica a segurança do sistema para usuários com deficiências.",
+            "2": "Um teste que valida o desempenho do sistema para usuários com deficiências.",
+            "3": "Um teste que verifica a integração entre módulos para usuários com deficiências.",
+            "4": "Um teste que verifica se o sistema é acessível para usuários com deficiências. O objetivo é garantir conformidade com diretrizes como WCAG."
+        }
+    }
+]

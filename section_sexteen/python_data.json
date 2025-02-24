@@ -1,0 +1,802 @@
+[
+    {
+        "text": "Qual método é usado para adicionar um elemento ao final de uma lista em Python?",
+        "answer": "1",
+        "options": {
+            "1": "append()",
+            "2": "extend()",
+            "3": "insert()",
+            "4": "add()"
+        }
+    },
+    {
+        "text": "Qual método remove e retorna o último elemento de uma lista em Python?",
+        "answer": "2",
+        "options": {
+            "1": "remove()",
+            "2": "pop()",
+            "3": "delete()",
+            "4": "clear()"
+        }
+    },
+    {
+        "text": "Qual método é usado para inverter a ordem dos elementos em uma lista in-place?",
+        "answer": "3",
+        "options": {
+            "1": "sort()",
+            "2": "reversed()",
+            "3": "reverse()",
+            "4": "flip()"
+        }
+    },
+    {
+        "text": "Qual método retorna o número de vezes que um elemento aparece em uma lista?",
+        "answer": "4",
+        "options": {
+            "1": "index()",
+            "2": "find()",
+            "3": "search()",
+            "4": "count()"
+        }
+    },
+    {
+        "text": "Qual método é usado para ordenar uma lista em ordem crescente in-place?",
+        "answer": "1",
+        "options": {
+            "1": "sort()",
+            "2": "sorted()",
+            "3": "order()",
+            "4": "arrange()"
+        }
+    },
+    {
+        "text": "Qual método remove a primeira ocorrência de um valor especificado em uma lista?",
+        "answer": "2",
+        "options": {
+            "1": "pop()",
+            "2": "remove()",
+            "3": "delete()",
+            "4": "discard()"
+        }
+    },
+    {
+        "text": "Qual método é usado para inserir um elemento em uma posição específica em uma lista?",
+        "answer": "3",
+        "options": {
+            "1": "append()",
+            "2": "extend()",
+            "3": "insert()",
+            "4": "add()"
+        }
+    },
+    {
+        "text": "Qual método retorna o índice da primeira ocorrência de um valor especificado em uma lista?",
+        "answer": "4",
+        "options": {
+            "1": "find()",
+            "2": "search()",
+            "3": "locate()",
+            "4": "index()"
+        }
+    },
+    {
+        "text": "Qual método é usado para remover todos os elementos de uma lista?",
+        "answer": "1",
+        "options": {
+            "1": "clear()",
+            "2": "empty()",
+            "3": "remove_all()",
+            "4": "delete_all()"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar uma cópia superficial de uma lista?",
+        "answer": "2",
+        "options": {
+            "1": "clone()",
+            "2": "copy()",
+            "3": "duplicate()",
+            "4": "replicate()"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `append()` em uma lista em Python?",
+        "answer": "1",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para remover todos os elementos de uma lista que atendem a uma condição específica?",
+        "answer": "2",
+        "options": {
+            "1": "filter()",
+            "2": "List comprehension",
+            "3": "map()",
+            "4": "reduce()"
+        }
+    },
+    {
+        "text": "Qual é a diferença entre `list.sort()` e `sorted(list)` em Python?",
+        "answer": "3",
+        "options": {
+            "1": "`list.sort()` retorna uma nova lista ordenada, enquanto `sorted(list)` ordena a lista in-place.",
+            "2": "Ambos são idênticos e podem ser usados intercambiavelmente.",
+            "3": "`list.sort()` ordena a lista in-place e não retorna nada, enquanto `sorted(list)` retorna uma nova lista ordenada.",
+            "4": "`list.sort()` só funciona para listas de inteiros, enquanto `sorted(list)` funciona para qualquer tipo de lista."
+        }
+    },
+    {
+        "text": "Qual método é usado para concatenar duas listas em Python sem modificar as listas originais?",
+        "answer": "4",
+        "options": {
+            "1": "extend()",
+            "2": "append()",
+            "3": "insert()",
+            "4": "Operador `+`"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `insert()` em uma lista em Python?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar uma lista a partir de um iterável, aplicando uma função a cada elemento?",
+        "answer": "1",
+        "options": {
+            "1": "map()",
+            "2": "filter()",
+            "3": "reduce()",
+            "4": "zip()"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `pop(0)` em uma lista em Python?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar uma lista de tuplas a partir de múltiplas listas?",
+        "answer": "4",
+        "options": {
+            "1": "map()",
+            "2": "filter()",
+            "3": "reduce()",
+            "4": "zip()"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `index()` em uma lista em Python?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar uma lista com elementos únicos a partir de uma lista que pode conter duplicatas?",
+        "answer": "3",
+        "options": {
+            "1": "set()",
+            "2": "unique()",
+            "3": "list(set())",
+            "4": "distinct()"
+        }
+    },
+    {
+        "text": "Qual método é usado para contar o número de ocorrências de um elemento em uma tupla?",
+        "answer": "1",
+        "options": {
+            "1": "count()",
+            "2": "index()",
+            "3": "find()",
+            "4": "search()"
+        }
+    },
+    {
+        "text": "Qual método é usado para encontrar o índice da primeira ocorrência de um elemento em uma tupla?",
+        "answer": "2",
+        "options": {
+            "1": "count()",
+            "2": "index()",
+            "3": "find()",
+            "4": "locate()"
+        }
+    },
+    {
+        "text": "Qual é a principal diferença entre uma tupla e uma lista em Python?",
+        "answer": "3",
+        "options": {
+            "1": "Tuplas são mutáveis, enquanto listas são imutáveis.",
+            "2": "Tuplas podem conter apenas números, enquanto listas podem conter qualquer tipo de dado.",
+            "3": "Tuplas são imutáveis, enquanto listas são mutáveis.",
+            "4": "Tuplas são mais rápidas para operações de inserção e remoção do que listas."
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo para acessar um elemento em uma tupla pelo seu índice?",
+        "answer": "1",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para converter uma lista em uma tupla?",
+        "answer": "4",
+        "options": {
+            "1": "list_to_tuple()",
+            "2": "convert()",
+            "3": "as_tuple()",
+            "4": "tuple()"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo para encontrar o índice de um elemento em uma tupla usando o método `index()`?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para concatenar duas tuplas em Python?",
+        "answer": "3",
+        "options": {
+            "1": "extend()",
+            "2": "append()",
+            "3": "Operador `+`",
+            "4": "join()"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo para contar as ocorrências de um elemento em uma tupla usando o método `count()`?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar uma tupla a partir de um iterável?",
+        "answer": "1",
+        "options": {
+            "1": "tuple()",
+            "2": "create()",
+            "3": "as_tuple()",
+            "4": "make_tuple()"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de espaço de uma tupla em Python?",
+        "answer": "1",
+        "options": {
+            "1": "O(n)",
+            "2": "O(1)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo para criar uma tupla a partir de um iterável?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para desempacotar os elementos de uma tupla em variáveis separadas?",
+        "answer": "3",
+        "options": {
+            "1": "unpack()",
+            "2": "extract()",
+            "3": "Atribuição direta",
+            "4": "split()"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo para verificar se um elemento está presente em uma tupla?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar uma tupla nomeada em Python?",
+        "answer": "4",
+        "options": {
+            "1": "namedtuple()",
+            "2": "tuple()",
+            "3": "create_named()",
+            "4": "collections.namedtuple()"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo para fatiar (slicing) uma tupla?",
+        "answer": "1",
+        "options": {
+            "1": "O(k)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar uma tupla imutável com elementos únicos?",
+        "answer": "2",
+        "options": {
+            "1": "tuple(set())",
+            "2": "tuple(sorted(set()))",
+            "3": "unique()",
+            "4": "distinct()"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo para comparar duas tuplas em Python?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar uma tupla a partir de um dicionário, contendo apenas as chaves?",
+        "answer": "1",
+        "options": {
+            "1": "tuple(dict.keys())",
+            "2": "tuple(dict.values())",
+            "3": "tuple(dict.items())",
+            "4": "tuple(dict)"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo para criar uma tupla a partir de um dicionário?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar uma tupla a partir de um dicionário, contendo pares (chave, valor)?",
+        "answer": "3",
+        "options": {
+            "1": "tuple(dict.keys())",
+            "2": "tuple(dict.values())",
+            "3": "tuple(dict.items())",
+            "4": "tuple(dict)"
+        }
+    },
+    {
+        "text": "Qual método é usado para adicionar um elemento a um conjunto em Python?",
+        "answer": "1",
+        "options": {
+            "1": "add()",
+            "2": "append()",
+            "3": "insert()",
+            "4": "update()"
+        }
+    },
+    {
+        "text": "Qual método é usado para remover um elemento de um conjunto, gerando um erro se o elemento não existir?",
+        "answer": "2",
+        "options": {
+            "1": "discard()",
+            "2": "remove()",
+            "3": "pop()",
+            "4": "delete()"
+        }
+    },
+    {
+        "text": "Qual método é usado para remover e retornar um elemento aleatório de um conjunto?",
+        "answer": "3",
+        "options": {
+            "1": "discard()",
+            "2": "remove()",
+            "3": "pop()",
+            "4": "delete()"
+        }
+    },
+    {
+        "text": "Qual método é usado para remover todos os elementos de um conjunto?",
+        "answer": "4",
+        "options": {
+            "1": "empty()",
+            "2": "delete_all()",
+            "3": "remove_all()",
+            "4": "clear()"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar um novo conjunto que é a união de dois conjuntos?",
+        "answer": "1",
+        "options": {
+            "1": "union()",
+            "2": "intersection()",
+            "3": "difference()",
+            "4": "symmetric_difference()"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar um novo conjunto que é a interseção de dois conjuntos?",
+        "answer": "2",
+        "options": {
+            "1": "union()",
+            "2": "intersection()",
+            "3": "difference()",
+            "4": "symmetric_difference()"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar um novo conjunto que contém os elementos que estão em um conjunto, mas não no outro?",
+        "answer": "3",
+        "options": {
+            "1": "union()",
+            "2": "intersection()",
+            "3": "difference()",
+            "4": "symmetric_difference()"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar um novo conjunto que contém os elementos que estão em exatamente um dos conjuntos?",
+        "answer": "4",
+        "options": {
+            "1": "union()",
+            "2": "intersection()",
+            "3": "difference()",
+            "4": "symmetric_difference()"
+        }
+    },
+    {
+        "text": "Qual método é usado para verificar se um conjunto é subconjunto de outro?",
+        "answer": "1",
+        "options": {
+            "1": "issubset()",
+            "2": "issuperset()",
+            "3": "isdisjoint()",
+            "4": "contains()"
+        }
+    },
+    {
+        "text": "Qual método é usado para verificar se um conjunto é superconjunto de outro?",
+        "answer": "2",
+        "options": {
+            "1": "issubset()",
+            "2": "issuperset()",
+            "3": "isdisjoint()",
+            "4": "contains()"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `add()` em um conjunto em Python?",
+        "answer": "1",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `remove()` em um conjunto em Python?",
+        "answer": "1",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `pop()` em um conjunto em Python?",
+        "answer": "1",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `union()` em um conjunto em Python?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `intersection()` em um conjunto em Python?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `difference()` em um conjunto em Python?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `symmetric_difference()` em um conjunto em Python?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para verificar se dois conjuntos são disjuntos (não têm elementos em comum)?",
+        "answer": "3",
+        "options": {
+            "1": "issubset()",
+            "2": "issuperset()",
+            "3": "isdisjoint()",
+            "4": "disjoint()"
+        }
+    },
+    {
+        "text": "Qual método é usado para atualizar um conjunto com a união de si mesmo e outro conjunto?",
+        "answer": "4",
+        "options": {
+            "1": "union_update()",
+            "2": "intersection_update()",
+            "3": "difference_update()",
+            "4": "update()"
+        }
+    },
+    {
+        "text": "Qual método é usado para atualizar um conjunto com a interseção de si mesmo e outro conjunto?",
+        "answer": "2",
+        "options": {
+            "1": "union_update()",
+            "2": "intersection_update()",
+            "3": "difference_update()",
+            "4": "update()"
+        }
+    },
+    {
+        "text": "Qual método é usado para obter o valor associado a uma chave em um dicionário, retornando um valor padrão se a chave não existir?",
+        "answer": "1",
+        "options": {
+            "1": "get()",
+            "2": "fetch()",
+            "3": "retrieve()",
+            "4": "find()"
+        }
+    },
+    {
+        "text": "Qual método é usado para remover e retornar o valor associado a uma chave em um dicionário?",
+        "answer": "2",
+        "options": {
+            "1": "delete()",
+            "2": "pop()",
+            "3": "remove()",
+            "4": "discard()"
+        }
+    },
+    {
+        "text": "Qual método é usado para retornar uma visão dos pares (chave, valor) de um dicionário?",
+        "answer": "3",
+        "options": {
+            "1": "keys()",
+            "2": "values()",
+            "3": "items()",
+            "4": "pairs()"
+        }
+    },
+    {
+        "text": "Qual método é usado para retornar uma visão das chaves de um dicionário?",
+        "answer": "1",
+        "options": {
+            "1": "keys()",
+            "2": "values()",
+            "3": "items()",
+            "4": "pairs()"
+        }
+    },
+    {
+        "text": "Qual método é usado para retornar uma visão dos valores de um dicionário?",
+        "answer": "2",
+        "options": {
+            "1": "keys()",
+            "2": "values()",
+            "3": "items()",
+            "4": "pairs()"
+        }
+    },
+    {
+        "text": "Qual método é usado para remover todos os elementos de um dicionário?",
+        "answer": "4",
+        "options": {
+            "1": "empty()",
+            "2": "delete_all()",
+            "3": "remove_all()",
+            "4": "clear()"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar um novo dicionário com chaves de um iterável e valores iguais a um valor especificado?",
+        "answer": "1",
+        "options": {
+            "1": "fromkeys()",
+            "2": "create()",
+            "3": "make_dict()",
+            "4": "generate()"
+        }
+    },
+    {
+        "text": "Qual método é usado para atualizar um dicionário com os pares (chave, valor) de outro dicionário?",
+        "answer": "2",
+        "options": {
+            "1": "merge()",
+            "2": "update()",
+            "3": "combine()",
+            "4": "append()"
+        }
+    },
+    {
+        "text": "Qual método é usado para retornar e remover um par (chave, valor) arbitrário de um dicionário?",
+        "answer": "3",
+        "options": {
+            "1": "pop()",
+            "2": "remove()",
+            "3": "popitem()",
+            "4": "discard()"
+        }
+    },
+    {
+        "text": "Qual método é usado para definir o valor de uma chave em um dicionário, retornando o valor existente se a chave já existir?",
+        "answer": "4",
+        "options": {
+            "1": "get()",
+            "2": "fetch()",
+            "3": "retrieve()",
+            "4": "setdefault()"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `get()` em um dicionário em Python?",
+        "answer": "1",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `pop()` em um dicionário em Python?",
+        "answer": "1",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `items()` em um dicionário em Python?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `update()` em um dicionário em Python?",
+        "answer": "2",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `setdefault()` em um dicionário em Python?",
+        "answer": "1",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar um dicionário a partir de dois iteráveis, um para chaves e outro para valores?",
+        "answer": "3",
+        "options": {
+            "1": "dict.fromkeys()",
+            "2": "dict.update()",
+            "3": "dict(zip())",
+            "4": "dict.combine()"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo para verificar se uma chave existe em um dicionário?",
+        "answer": "1",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar uma cópia superficial de um dicionário?",
+        "answer": "4",
+        "options": {
+            "1": "dict.clone()",
+            "2": "dict.copy()",
+            "3": "dict.duplicate()",
+            "4": "dict.copy()"
+        }
+    },
+    {
+        "text": "Qual é a complexidade de tempo do método `popitem()` em um dicionário em Python?",
+        "answer": "1",
+        "options": {
+            "1": "O(1)",
+            "2": "O(n)",
+            "3": "O(log n)",
+            "4": "O(n²)"
+        }
+    },
+    {
+        "text": "Qual método é usado para criar um dicionário a partir de uma lista de tuplas (chave, valor)?",
+        "answer": "2",
+        "options": {
+            "1": "dict.fromkeys()",
+            "2": "dict()",
+            "3": "dict.update()",
+            "4": "dict.combine()"
+        }
+    }
+]
