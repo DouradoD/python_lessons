@@ -1,0 +1,202 @@
+[
+    {
+        "text": "O que são testes de unidade e qual é o seu principal objetivo?",
+        "answer": "1",
+        "options": {
+            "1": "Testes de unidade verificam unidades individuais de código (como funções ou métodos) para garantir que funcionem corretamente de forma isolada.",
+            "2": "Testes de unidade validam a integração entre diferentes módulos do sistema.",
+            "3": "Testes de unidade são realizados apenas após a conclusão dos testes de sistema.",
+            "4": "Testes de unidade focam na experiência do usuário final."
+        }
+    },
+    {
+        "text": "Qual é o principal objetivo dos testes de integração?",
+        "answer": "2",
+        "options": {
+            "1": "Validar o sistema completo, incluindo todos os módulos e interfaces.",
+            "2": "Garantir que diferentes módulos ou componentes do sistema funcionem corretamente quando integrados.",
+            "3": "Testar unidades individuais de código de forma isolada.",
+            "4": "Verificar a usabilidade e a experiência do usuário."
+        }
+    },
+    {
+        "text": "O que são testes de sistema e quando eles são realizados?",
+        "answer": "3",
+        "options": {
+            "1": "Testes de sistema validam unidades individuais de código e são realizados durante o desenvolvimento.",
+            "2": "Testes de sistema verificam a integração entre módulos e são realizados antes dos testes de unidade.",
+            "3": "Testes de sistema validam o sistema completo e são realizados após os testes de integração.",
+            "4": "Testes de sistema focam apenas na segurança do sistema."
+        }
+    },
+    {
+        "text": "Qual é a diferença entre testes de regressão e testes de sistema?",
+        "answer": "1",
+        "options": {
+            "1": "Testes de regressão garantem que mudanças recentes não afetaram funcionalidades existentes, enquanto testes de sistema validam o sistema completo.",
+            "2": "Testes de regressão são realizados antes dos testes de unidade, e testes de sistema são realizados após os testes de integração.",
+            "3": "Testes de regressão focam na integração entre módulos, enquanto testes de sistema focam na usabilidade.",
+            "4": "Não há diferença; ambos são a mesma coisa."
+        }
+    },
+    {
+        "text": "O que são testes de sanity e qual é o seu objetivo?",
+        "answer": "2",
+        "options": {
+            "1": "Testes de sanity validam o sistema completo, incluindo todos os módulos e interfaces.",
+            "2": "Testes de sanity verificam se alterações recentes não introduziram novos defeitos em áreas específicas.",
+            "3": "Testes de sanity são realizados apenas em ambiente de produção.",
+            "4": "Testes de sanity focam na integração entre módulos."
+        }
+    },
+    {
+        "text": "Qual é o principal objetivo dos testes de smoke?",
+        "answer": "3",
+        "options": {
+            "1": "Validar a integração entre diferentes módulos do sistema.",
+            "2": "Garantir que todas as funcionalidades do sistema estão funcionando corretamente.",
+            "3": "Verificar se as funcionalidades críticas do sistema estão funcionando após uma nova build.",
+            "4": "Testar a usabilidade e a experiência do usuário."
+        }
+    },
+    {
+        "text": "Em qual ambiente os testes de UAT (User Acceptance Testing) são realizados?",
+        "answer": "4",
+        "options": {
+            "1": "Ambiente de desenvolvimento (DEV).",
+            "2": "Ambiente de QA (Quality Assurance).",
+            "3": "Ambiente de SIT (Sistema de Integração de Testes).",
+            "4": "Ambiente de UAT (User Acceptance Testing)."
+        }
+    },
+    {
+        "text": "Qual é o principal objetivo dos testes de aceitação do usuário (UAT)?",
+        "answer": "1",
+        "options": {
+            "1": "Validar se o sistema atende às necessidades do negócio e está pronto para ser liberado.",
+            "2": "Garantir que diferentes módulos do sistema funcionem corretamente quando integrados.",
+            "3": "Testar unidades individuais de código de forma isolada.",
+            "4": "Verificar a segurança e o desempenho do sistema."
+        }
+    },
+    {
+        "text": "Qual é a diferença entre testes de sistema e testes de aceitação do usuário (UAT)?",
+        "answer": "2",
+        "options": {
+            "1": "Testes de sistema são realizados pelos usuários finais, enquanto testes de UAT são realizados pela equipe de QA.",
+            "2": "Testes de sistema validam o sistema completo tecnicamente, enquanto testes de UAT validam se o sistema atende às necessidades do negócio.",
+            "3": "Testes de sistema focam na integração entre módulos, enquanto testes de UAT focam na usabilidade.",
+            "4": "Não há diferença; ambos são a mesma coisa."
+        }
+    },
+    {
+        "text": "O que são testes de regressão e quando eles são realizados?",
+        "answer": "3",
+        "options": {
+            "1": "Testes de regressão validam o sistema completo e são realizados antes dos testes de unidade.",
+            "2": "Testes de regressão verificam a integração entre módulos e são realizados após os testes de sistema.",
+            "3": "Testes de regressão garantem que mudanças recentes não afetaram funcionalidades existentes e são realizados após alterações no código.",
+            "4": "Testes de regressão focam apenas na segurança do sistema."
+        }
+    },
+    {
+        "text": "Qual é a diferença entre testes de sanity e testes de smoke?",
+        "answer": "1",
+        "options": {
+            "1": "Testes de smoke verificam funcionalidades críticas após uma nova build, enquanto testes de sanity verificam áreas específicas após mudanças recentes.",
+            "2": "Testes de sanity são realizados antes dos testes de unidade, enquanto testes de smoke são realizados após os testes de sistema.",
+            "3": "Testes de sanity focam na usabilidade, enquanto testes de smoke focam na segurança.",
+            "4": "Não há diferença; ambos são a mesma coisa."
+        }
+    },
+    {
+        "text": "Em qual ambiente os testes de sistema são realizados?",
+        "answer": "2",
+        "options": {
+            "1": "Ambiente de desenvolvimento (DEV).",
+            "2": "Ambiente de SIT (Sistema de Integração de Testes) ou UAT.",
+            "3": "Ambiente de produção (PROD).",
+            "4": "Ambiente de QA apenas."
+        }
+    },
+    {
+        "text": "Qual é a principal diferença entre testes de unidade e testes de integração?",
+        "answer": "3",
+        "options": {
+            "1": "Testes de unidade validam o sistema completo, enquanto testes de integração validam unidades individuais de código.",
+            "2": "Testes de unidade são realizados após os testes de sistema, enquanto testes de integração são realizados antes dos testes de unidade.",
+            "3": "Testes de unidade verificam unidades individuais de código, enquanto testes de integração verificam a interação entre módulos.",
+            "4": "Não há diferença; ambos são a mesma coisa."
+        }
+    },
+    {
+        "text": "O que são testes de desempenho e em qual nível da pirâmide de testes eles se encaixam?",
+        "answer": "4",
+        "options": {
+            "1": "Testes de desempenho verificam unidades individuais de código e se encaixam no nível de testes de unidade.",
+            "2": "Testes de desempenho validam a integração entre módulos e se encaixam no nível de testes de integração.",
+            "3": "Testes de desempenho focam na usabilidade e se encaixam no nível de testes de aceitação.",
+            "4": "Testes de desempenho avaliam o tempo de resposta e a escalabilidade do sistema e se encaixam no nível de testes de sistema."
+        }
+    },
+    {
+        "text": "Qual é o principal objetivo dos testes de segurança?",
+        "answer": "1",
+        "options": {
+            "1": "Identificar vulnerabilidades e garantir que o sistema está protegido contra ameaças.",
+            "2": "Validar a integração entre módulos do sistema.",
+            "3": "Testar unidades individuais de código de forma isolada.",
+            "4": "Verificar a usabilidade e a experiência do usuário."
+        }
+    },
+    {
+        "text": "O que são testes de usabilidade e em qual nível da pirâmide de testes eles se encaixam?",
+        "answer": "2",
+        "options": {
+            "1": "Testes de usabilidade verificam a integração entre módulos e se encaixam no nível de testes de integração.",
+            "2": "Testes de usabilidade avaliam a experiência do usuário e se encaixam no nível de testes de sistema ou aceitação.",
+            "3": "Testes de usabilidade validam unidades individuais de código e se encaixam no nível de testes de unidade.",
+            "4": "Testes de usabilidade focam apenas na segurança do sistema."
+        }
+    },
+    {
+        "text": "Qual é a diferença entre testes manuais e testes automatizados?",
+        "answer": "3",
+        "options": {
+            "1": "Testes manuais são realizados apenas em ambiente de produção, enquanto testes automatizados são realizados em ambiente de desenvolvimento.",
+            "2": "Testes manuais focam na integração entre módulos, enquanto testes automatizados focam na usabilidade.",
+            "3": "Testes manuais são executados por humanos, enquanto testes automatizados são executados por scripts ou ferramentas.",
+            "4": "Não há diferença; ambos são a mesma coisa."
+        }
+    },
+    {
+        "text": "O que é a pirâmide de testes e qual é a sua estrutura?",
+        "answer": "4",
+        "options": {
+            "1": "A pirâmide de testes é uma estrutura que prioriza testes de sistema sobre testes de unidade e integração.",
+            "2": "A pirâmide de testes é uma estrutura que prioriza testes de aceitação sobre testes de sistema e integração.",
+            "3": "A pirâmide de testes é uma estrutura que prioriza testes de integração sobre testes de unidade e sistema.",
+            "4": "A pirâmide de testes é uma estrutura que prioriza testes de unidade na base, seguidos por testes de integração e, por fim, testes de sistema."
+        }
+    },
+    {
+        "text": "Qual é a importância dos testes de unidade na pirâmide de testes?",
+        "answer": "1",
+        "options": {
+            "1": "Testes de unidade formam a base da pirâmide, garantindo que unidades individuais de código funcionem corretamente antes de avançar para testes de integração e sistema.",
+            "2": "Testes de unidade são menos importantes que testes de sistema e devem ser realizados apenas no final do processo.",
+            "3": "Testes de unidade são realizados apenas em ambiente de produção.",
+            "4": "Testes de unidade focam apenas na usabilidade do sistema."
+        }
+    },
+    {
+        "text": "O que são testes end-to-end (E2E) e em qual nível da pirâmide de testes eles se encaixam?",
+        "answer": "2",
+        "options": {
+            "1": "Testes E2E verificam unidades individuais de código e se encaixam no nível de testes de unidade.",
+            "2": "Testes E2E validam o fluxo completo do sistema, desde o início até o fim, e se encaixam no nível de testes de sistema.",
+            "3": "Testes E2E focam na integração entre módulos e se encaixam no nível de testes de integração.",
+            "4": "Testes E2E são realizados apenas em ambiente de desenvolvimento."
+        }
+    }
+]

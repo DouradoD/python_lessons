@@ -1,0 +1,202 @@
+[
+    {
+        "text": "What is the primary goal of non-functional testing?",
+        "answer": "1",
+        "options": {
+            "1": "To evaluate how the system performs under various conditions, such as speed, reliability, and security.",
+            "2": "To validate the functional requirements of the system.",
+            "3": "To test individual units of code in isolation.",
+            "4": "To verify the integration between different modules of the system."
+        }
+    },
+    {
+        "text": "Which of the following is a type of non-functional testing?",
+        "answer": "3",
+        "options": {
+            "1": "Unit testing.",
+            "2": "Integration testing.",
+            "3": "Performance testing.",
+            "4": "Sanity testing."
+        }
+    },
+    {
+        "text": "What is the main focus of performance testing?",
+        "answer": "2",
+        "options": {
+            "1": "To verify the security of the system.",
+            "2": "To evaluate the system's speed, responsiveness, and stability under workload.",
+            "3": "To test the usability of the system.",
+            "4": "To validate the integration between modules."
+        }
+    },
+    {
+        "text": "Which environment is most suitable for performance testing?",
+        "answer": "4",
+        "options": {
+            "1": "Development (DEV).",
+            "2": "User Acceptance Testing (UAT).",
+            "3": "Production (PROD).",
+            "4": "A dedicated performance testing environment that mimics production."
+        }
+    },
+    {
+        "text": "What is the purpose of security testing?",
+        "answer": "1",
+        "options": {
+            "1": "To identify vulnerabilities and ensure the system is protected against threats.",
+            "2": "To test the system's compliance with business requirements.",
+            "3": "To validate the integration between modules.",
+            "4": "To evaluate the system's usability."
+        }
+    },
+    {
+        "text": "Which tool is commonly used for security testing?",
+        "answer": "3",
+        "options": {
+            "1": "Selenium.",
+            "2": "JMeter.",
+            "3": "OWASP ZAP.",
+            "4": "JUnit."
+        }
+    },
+    {
+        "text": "What is the main focus of usability testing?",
+        "answer": "4",
+        "options": {
+            "1": "To evaluate the system's performance under load.",
+            "2": "To validate the integration between modules.",
+            "3": "To test the system's security.",
+            "4": "To assess how user-friendly and intuitive the system is."
+        }
+    },
+    {
+        "text": "In which environment is usability testing typically performed?",
+        "answer": "2",
+        "options": {
+            "1": "Development (DEV).",
+            "2": "User Acceptance Testing (UAT).",
+            "3": "Production (PROD).",
+            "4": "System Integration Testing (SIT)."
+        }
+    },
+    {
+        "text": "What is the difference between load testing and stress testing?",
+        "answer": "1",
+        "options": {
+            "1": "Load testing evaluates system performance under expected workload, while stress testing evaluates system behavior under extreme conditions.",
+            "2": "Load testing focuses on security, while stress testing focuses on usability.",
+            "3": "Load testing is performed in UAT, while stress testing is performed in PROD.",
+            "4": "There is no difference; both are the same."
+        }
+    },
+    {
+        "text": "Which tool is commonly used for performance testing?",
+        "answer": "2",
+        "options": {
+            "1": "Postman.",
+            "2": "JMeter.",
+            "3": "OWASP ZAP.",
+            "4": "Selenium."
+        }
+    },
+    {
+        "text": "What is the purpose of scalability testing?",
+        "answer": "3",
+        "options": {
+            "1": "To test the system's security.",
+            "2": "To evaluate the system's usability.",
+            "3": "To determine how well the system can handle increased workload or growth.",
+            "4": "To validate the integration between modules."
+        }
+    },
+    {
+        "text": "Which of the following is a non-functional requirement?",
+        "answer": "4",
+        "options": {
+            "1": "The system must allow users to log in.",
+            "2": "The system must integrate with a payment gateway.",
+            "3": "The system must display product details.",
+            "4": "The system must handle 1,000 concurrent users."
+        }
+    },
+    {
+        "text": "What is the main focus of reliability testing?",
+        "answer": "2",
+        "options": {
+            "1": "To evaluate the system's security.",
+            "2": "To ensure the system operates without failure over a specified period.",
+            "3": "To test the system's usability.",
+            "4": "To validate the integration between modules."
+        }
+    },
+    {
+        "text": "Which type of testing evaluates the system's ability to recover from failures?",
+        "answer": "3",
+        "options": {
+            "1": "Performance testing.",
+            "2": "Usability testing.",
+            "3": "Recovery testing.",
+            "4": "Security testing."
+        }
+    },
+    {
+        "text": "What is the purpose of compatibility testing?",
+        "answer": "1",
+        "options": {
+            "1": "To ensure the system works across different devices, browsers, and operating systems.",
+            "2": "To evaluate the system's performance under load.",
+            "3": "To test the system's security.",
+            "4": "To validate the integration between modules."
+        }
+    },
+    {
+        "text": "Which of the following is an example of a non-functional test case?",
+        "answer": "4",
+        "options": {
+            "1": "Verify that the login functionality works with valid credentials.",
+            "2": "Check that the payment gateway integration processes payments correctly.",
+            "3": "Ensure that the product details page displays all required information.",
+            "4": "Verify that the system responds within 2 seconds under 500 concurrent users."
+        }
+    },
+    {
+        "text": "What is the main focus of endurance testing?",
+        "answer": "3",
+        "options": {
+            "1": "To evaluate the system's security.",
+            "2": "To test the system's usability.",
+            "3": "To ensure the system can handle a sustained workload over a long period.",
+            "4": "To validate the integration between modules."
+        }
+    },
+    {
+        "text": "Which environment is most suitable for security testing?",
+        "answer": "4",
+        "options": {
+            "1": "Development (DEV).",
+            "2": "User Acceptance Testing (UAT).",
+            "3": "Production (PROD).",
+            "4": "A dedicated testing environment that mimics production."
+        }
+    },
+    {
+        "text": "What is the difference between functional and non-functional testing?",
+        "answer": "1",
+        "options": {
+            "1": "Functional testing validates what the system does, while non-functional testing evaluates how the system performs.",
+            "2": "Functional testing is performed in UAT, while non-functional testing is performed in PROD.",
+            "3": "Functional testing focuses on security, while non-functional testing focuses on usability.",
+            "4": "There is no difference; both are the same."
+        }
+    },
+    {
+        "text": "Which of the following is NOT a type of non-functional testing?",
+        "answer": "2",
+        "options": {
+            "1": "Performance testing.",
+            "2": "Unit testing.",
+            "3": "Security testing.",
+            "4": "Usability testing."
+        }
+    }
+]
